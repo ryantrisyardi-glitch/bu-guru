@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kenangan Kita</title>
+<style>
+:root{--p:#7541C8;--m:#A33DB0;--pk:#D64D9A;--c:#F47C58;--tx:#293247;--mu:#77758B;--bd:#eadcf5;
+--g:linear-gradient(135deg,#7541C8,#D64D9A,#F47C58);--sh:0 8px 30px rgba(110,63,170,.08)}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Plus Jakarta Sans",Manrope,Inter,system-ui,sans-serif;color:var(--tx);min-height:100vh;
+background:radial-gradient(circle at 15% 10%,rgba(214,77,154,.12),transparent 40%),radial-gradient(circle at 90% 80%,rgba(244,124,88,.14),transparent 45%),linear-gradient(160deg,#F8F0FC,#fdeff6 55%,#FFF4EC) fixed}
+.doodle{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.22}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:12px;padding:14px 20px;padding-top:max(14px,env(safe-area-inset-top));
+background:linear-gradient(90deg,#7541C8,#A33DB0,#F47C58);color:#fff}
+header h1{font-size:17px;flex:1}header small{opacity:.85;font-size:12px}
+.logo{width:36px;height:36px;border-radius:12px;background:rgba(255,255,255,.22);display:grid;place-items:center;font-size:18px}
+#menu{display:none;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:12px;padding:8px 12px;font-size:16px}
+.wrap{position:relative;z-index:1;display:flex;gap:22px;padding:22px;max-width:1200px;margin:auto}
+nav{width:240px;flex-shrink:0;align-self:flex-start;position:sticky;top:90px;padding:16px;border-radius:26px;background:linear-gradient(170deg,#7541C8,#D64D9A 60%,#F47C58);box-shadow:var(--sh)}
+nav button{display:flex;width:100%;gap:10px;align-items:center;margin-bottom:8px;padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,.3);
+background:rgba(255,255,255,.14);backdrop-filter:blur(8px);color:#fff;font:600 14px inherit;cursor:pointer;transition:.25s}
+nav button:hover{background:rgba(255,255,255,.28)}
+nav button.on{background:#fff;color:var(--p)}
+main{flex:1;min-width:0}
+h2{font-size:32px;color:var(--p);margin-bottom:6px}
+.sub{color:var(--mu);font-size:14px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:#fff;border:1px solid var(--bd);border-radius:24px;padding:20px;box-shadow:var(--sh);transition:.25s}
+.card:hover{transform:translateY(-3px)}
+.card h3{font-size:17px;margin-bottom:6px}.card p{font-size:14px;line-height:1.6}
+.pill{display:inline-block;font-size:11px;padding:4px 10px;border-radius:99px;background:#efe6fb;color:var(--p);font-weight:600;margin-bottom:10px}
+.pill.o{background:#ffe9df;color:#c4552f}
+.ico{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;font-size:21px;background:linear-gradient(135deg,#F8F0FC,#FFF4EC);margin-bottom:10px}
+.hero{padding:30px}.hero h2{font-size:36px}
+.btn{border:0;border-radius:16px;padding:12px 20px;color:#fff;background:var(--g);font:600 14px inherit;cursor:pointer;box-shadow:0 6px 18px rgba(214,77,154,.3);transition:.25s}
+.btn:hover{transform:translateY(-2px)}
+.btn.s{background:#fff;color:var(--p);border:1px solid var(--bd);box-shadow:none}
+.ph{aspect-ratio:4/3;width:100%;object-fit:cover;border-radius:16px;background:linear-gradient(135deg,#F8F0FC,#FFF4EC);display:block;cursor:zoom-in}
+video{width:100%;border-radius:16px;background:#000}audio{width:100%}
+input,textarea{width:100%;padding:12px;border:1px solid var(--bd);border-radius:14px;font:inherit;margin-bottom:10px;background:#fffafd}
+#lb{position:fixed;inset:0;z-index:50;background:rgba(41,50,71,.85);display:none;place-items:center;padding:20px}
+#lb img{max-width:100%;max-height:90vh;border-radius:18px}
+section{display:none}section.on{display:block}
+@media(max-width:860px){#menu{display:block}.wrap{padding:14px}
+nav{position:fixed;top:0;left:0;bottom:0;z-index:40;border-radius:0 26px 26px 0;transform:translateX(-105%);transition:.3s;padding-top:max(24px,env(safe-area-inset-top))}
+nav.open{transform:none}h2{font-size:28px}.hero h2{font-size:30px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body>
+<svg class="doodle" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice" fill="none" stroke-width="1.5" stroke-linecap="round">
+<g stroke="#7541C8"><path d="M30 90l60-24-18 48-12-18z"/><rect x="300" y="140" width="46" height="58" rx="6"/><path d="M310 160h26M310 172h18"/></g>
+<g stroke="#D64D9A"><rect x="20" y="420" width="56" height="38" rx="5"/><path d="M20 424l28 20 28-20"/><circle cx="350" cy="420" r="14"/><path d="M340 760q30-40 60 0"/></g>
+<g stroke="#F47C58"><ellipse cx="60" cy="680" rx="26" ry="9"/><path d="M34 680v34c0 12 52 12 52 0v-34"/><path d="M330 600l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/></g></svg>
+<header><button id="menu" aria-label="Menu">☰</button><div class="logo">🎓</div>
+<h1 id="t">Kenangan Kita</h1><small id="ts"></small></header>
+<div class="wrap"><nav id="nav"></nav><main id="main"></main></div>
+<div id="lb"><img id="lbi"></div>
+<script>
+/* ====== EDIT BAGIAN INI ====== */
+const CONFIG={
+ judul:"Kenangan Kita", sub:"Kelas 6A • Tahun Ajaran 2025/2026",
+ sapaan:"Terima kasih Bapak/Ibu",
+ pembuka:"Enam tahun berjalan begitu cepat. Terima kasih atas kepercayaan, doa, dan dukungan Bapak/Ibu untuk putra-putri kita. Aplikasi ini adalah kenang-kenangan kecil dari kami.",
+ pesanGuru:"Semoga ananda menjadi pribadi yang berilmu, berakhlak, dan bermanfaat. Pintu sekolah selalu terbuka untuk kalian semua.",
+ namaGuru:"Wali Kelas",
+ foto:[{src:"media/foto1.jpg",cap:"Hari pertama sekolah"},{src:"media/foto2.jpg",cap:"Study tour"},{src:"media/foto3.jpg",cap:"Lomba 17 Agustus"}],
+ video:[{src:"media/video1.mp4",cap:"Video kenangan"}],
+ musik:[{src:"media/lagu1.mp3",cap:"Lagu perpisahan"}],
+ penutup:"Sampai jumpa di kesuksesan kalian. Sehat dan bahagia selalu untuk keluarga Bapak/Ibu."
+};
+/* ============================= */
+const C=CONFIG,$=s=>document.querySelector(s);
+const miss='onerror="this.style.display=\'none\'"';
+const tabs=[["home","🏠","Beranda"],["foto","🖼️","Galeri Foto"],["video","🎬","Video"],["musik","🎵","Musik"],["pesan","💌","Pesan"],["tutup","🌸","Terima Kasih"]];
+document.title=C.judul;$("#t").textContent=C.judul;$("#ts").textContent=C.sub;
+const V={
+home:`<div class="card hero"><span class="pill">${C.sub}</span><h2>${C.sapaan}</h2><p class="sub" style="margin-top:10px;font-size:15px;line-height:1.7">${C.pembuka}</p><button class="btn" onclick="go('foto')">Lihat kenangan</button></div>
+<div class="grid" style="margin-top:16px"><div class="card"><div class="ico">🖼️</div><h3>${C.foto.length} Foto</h3><p>Momen terbaik kita.</p></div><div class="card"><div class="ico">🎬</div><h3>${C.video.length} Video</h3><p>Putar tanpa loading.</p></div><div class="card"><div class="ico">🎵</div><h3>${C.musik.length} Lagu</h3><p>Pengiring kenangan.</p></div></div>`,
+foto:`<h2>Galeri Foto</h2><p class="sub">Ketuk foto untuk memperbesar.</p><div class="grid">${C.foto.map(f=>`<div class="card"><img class="ph" src="${f.src}" ${miss} onclick="zoom(this.src)"><p style="margin-top:10px">${f.cap}</p></div>`).join("")}</div>`,
+video:`<h2>Video Kenangan</h2><p class="sub">Tersimpan di dalam aplikasi.</p><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))">${C.video.map(v=>`<div class="card"><video controls preload="metadata" playsinline src="${v.src}"></video><p style="margin-top:10px">${v.cap}</p></div>`).join("")}</div>`,
+musik:`<h2>Musik</h2><p class="sub">Putar saat melihat galeri.</p>${C.musik.map(m=>`<div class="card" style="margin-bottom:14px"><div class="ico">🎵</div><h3>${m.cap}</h3><audio controls src="${m.src}"></audio></div>`).join("")}`,
+pesan:`<h2>Pesan</h2><p class="sub">Dari ${C.namaGuru} dan dari Bapak/Ibu.</p><div class="card"><span class="pill o">${C.namaGuru}</span><p style="font-size:15px">${C.pesanGuru}</p></div>
+<div class="card" style="margin-top:16px"><h3>Tulis pesan Anda</h3><input id="nm" placeholder="Nama"><textarea id="ps" rows="3" placeholder="Pesan untuk kelas"></textarea><button class="btn" onclick="kirim()">Simpan pesan</button><p class="sub" style="margin:10px 0 0;font-size:12px">Pesan tersimpan di HP ini saja.</p></div><div id="lst" class="grid" style="margin-top:16px"></div>`,
+tutup:`<div class="card hero" style="text-align:center"><div class="ico" style="margin:0 auto 12px">🌸</div><h2>Terima Kasih</h2><p style="font-size:15px;line-height:1.7">${C.penutup}</p></div>`};
+$("#nav").innerHTML=tabs.map(t=>`<button data-k="${t[0]}"><span>${t[1]}</span>${t[2]}</button>`).join("");
+$("#main").innerHTML=tabs.map(t=>`<section id="s-${t[0]}">${V[t[0]]}</section>`).join("");
+function go(k){document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id=="s-"+k));
+document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.k==k));$("#nav").classList.remove("open");
+document.querySelectorAll("video,audio").forEach(m=>{if(!m.closest("section.on"))m.pause()});scrollTo(0,0)}
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>go(b.dataset.k));
+$("#menu").onclick=()=>$("#nav").classList.toggle("open");
+function zoom(s){$("#lbi").src=s;$("#lb").style.display="grid"}$("#lb").onclick=()=>$("#lb").style.display="none";
+const K="pesan_ortu";function draw(){let a=[];try{a=JSON.parse(localStorage[K]||"[]")}catch(e){}
+$("#lst").innerHTML=a.map(x=>`<div class="card"><span class="pill">${x.n}</span><p>${x.p}</p></div>`).join("")}
+function kirim(){const n=$("#nm").value.trim(),p=$("#ps").value.trim();if(!n||!p)return;
+const e=s=>s.replace(/[<>&]/g,"");let a=[];try{a=JSON.parse(localStorage[K]||"[]")}catch(x){}
+a.unshift({n:e(n),p:e(p)});try{localStorage[K]=JSON.stringify(a)}catch(x){}$("#nm").value=$("#ps").value="";draw()}
+draw();go("home");
+</script></body></html>
